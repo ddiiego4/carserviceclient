@@ -17,7 +17,7 @@ export class OwnerListComponent implements OnInit {
               private carService: CarService,
               private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.ownerService.getAll().subscribe(data => {
       this.owners = data._embedded.owners;
     });
