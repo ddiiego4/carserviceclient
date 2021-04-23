@@ -25,15 +25,15 @@
 
 <mat-card-actions>
 <!--Boton guardar-->
-<button mat-raised-button color="primary" type="submit" [disabled]="!carForm.form.valid">Guardar
+<button mat-raised-button color="primary" type="submit" [disabled]="!carForm.form.valid">Save
 </button>
 
 <!--Boton borrar-->
-<button mat-raised-button color="secondary" (click)="remove(car.href)" *ngIf="car.href" type="button"> Borrar
+<button mat-raised-button color="secondary" (click)="remove(car.href)" *ngIf="car.href" type="button"> Delete
 </button>
 
 <!--Boton Cancelar-->
-<a mat-button routerLink="/car-list">Cancelar</a>
+<a mat-button routerLink="/car-list">Cancel</a>
 
 </mat-card-actions>
 

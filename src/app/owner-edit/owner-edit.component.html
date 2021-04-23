@@ -3,7 +3,7 @@
 
     <mat-card-header>
       <mat-card-title>
-        <h2>{{ owner.dni ? "Editar" : "Agregar" }} Owner</h2>
+        <h2>{{ owner.dni ? "Edit" : "Add" }} Owner</h2>
       </mat-card-title>
     </mat-card-header>
 
@@ -28,21 +28,21 @@
 
     <mat-card-actions>
       <button mat-raised-button color="primary" type="submit" [disabled]="!oldOwner">
-        Crear
+        Create
       </button>
 
       <!--Boton guardar-->
       <button mat-raised-button color="primary" type="submit" [disabled]="oldOwner">
-        Actualizar
+        Update
       </button>
 
       <!--Boton Borrar-->
       <button mat-raised-button color="secondary" (click)="remove(owner.href,owner.dni)" *ngIf="owner.href" type="button">
-        Borrar
+        Delete
       </button>
 
       <!--Boton Cancelar-->
-      <a mat-button routerLink="/owner-list">Cancelar</a>
+      <a mat-button routerLink="/owner-list">Cancel</a>
     </mat-card-actions>
 
 
