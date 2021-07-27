@@ -17,18 +17,18 @@ Mapeo de datos
 	Mapeo Estructura1
 	Mapeo Estructura2
 	Mapeo Estructura3	
-Características tecnicas de la Interfaz
+Caracteristicas tecnicas de la Interfaz
 Manejo de Errores
 Manejo de reproceso
 Manual de despliegue
 Inventario de Artefactos
-Topologías
+Topologias
 Directorios
 Operaciones de la Interfaz (Servicio)
 
 
 Descripcion de la necesidad
-En esta seccion, se debe especificar cual es la necesidad del negocio que se quiere solucionar, para describir la necesidad de acuerdo a los siguientes ítems:
+En esta seccion, se debe especificar cual es la necesidad del negocio que se quiere solucionar, para describir la necesidad de acuerdo a los siguientes items:
 
 Nombre de la interfaz:	NOMBRE DE LA INTERACION O API
 Que	Especifique la necesidad que se quiere solucionar
@@ -48,38 +48,38 @@ Clasificacion de las Interfaces
 Atributos de calidad de la solucion
 Estas preguntas se puedes realizar enfocadas en el proceso de negocio que se esta analizando para identificar los atributos de calidad:
 
-Con que frecuencia se generan los mensajes o registros en un día
+Con que frecuencia se generan los mensajes o registros en un dia
 Que cantidad de registros o mensajes se generan
 Cual es el crecimiento esperado para la generacion de estos registros o mensajes
 Cuanto tiempo se necesita para ejecutar el proceso
 Cual es el tiempo en que se espera tener la informacion
-Como se comporta la informacion en un evento especial En promociones, un día, hora en particular
+Como se comporta la informacion en un evento especial En promociones, un dia, hora en particular
 En la siguiente tabla se relacionan los atributos de calidad asociados a la solucion:
 
 Seguridad		
-Característica	Observacion	
+Caracteristica	Observacion	
 Identificacion y Autenticacion		
 Autorizacion		
 Confidencialidad		
 Integridad		
 Auditabilidad		
 Desempeno		
-Característica	Observacion	
+Caracteristica	Observacion	
 Transacciones por Segundo		
 Tiempo de Respuesta Maximo en Segundos		
 Tiempo de Respuesta Promedio en Segundos		
 Frecuencia		
 Registros entregados en orden		
 Escalamiento		
-Característica	Observacion	
-Cantidad Estimada de Transacciones por Día/Mes/Ano		
-Porcentaje de Crecimiento Estimado de Transacciones por Día/Mes/Ano (%)		
+Caracteristica	Observacion	
+Cantidad Estimada de Transacciones por Dia/Mes/Ano		
+Porcentaje de Crecimiento Estimado de Transacciones por Dia/Mes/Ano (%)		
 Disponibilidad		
-Característica	Observacion	
+Caracteristica	Observacion	
 Horario de Disponibilidad de la Solucion		
 Contingencia		
 Manejo de errores		
-Característica	Observacion	
+Caracteristica	Observacion	
 Trazabilidad		
 Endpoint o Partition Key		
 Errores		
@@ -102,8 +102,8 @@ Nombre Componente	Descripcion del componente	Responsabilidad	Tipo	Herramienta
 Consideraciones
 ​ En esta seccion especificar las consideraciones relevantes de la solucion a construir.
 
-Este diagrama no es necesario cuando se construye un servicio simple, se crearía el diagrama de secuencia.
-Este diagrama debe contemplar el reproceso de la informacion y el punto desde donde reenviaría la informacion.
+Este diagrama no es necesario cuando se construye un servicio simple, se crearia el diagrama de secuencia.
+Este diagrama debe contemplar el reproceso de la informacion y el punto desde donde reenviaria la informacion.
 Especificar si es una cola, un servicio que se debe definir.
 Mapeo de datos
 En las siguientes tablas se relacionan el mapeo de datos entre el mensaje interno capa integracion y el mensaje de los proveedores de la Interfaz:
@@ -114,12 +114,12 @@ Nombre Del destino: especifique el nombre del componente destino
 Enrutamiento: /				
 Campo Destino	Transformacion	Origen	Campo Origen	Comentarios
 nombre campo destino 1	tipo de transformacion	Tipo campo origen 1	Nombre campo origen 1	Especifique algun comentario releventa del campo
-Características tecnicas de la Interfaz
+Caracteristicas tecnicas de la Interfaz
 Las hojas tecnicas de infraestructura son relacionadas en la siguiente tabla:
 
-Características Tecnicas Desarrollo						
+Caracteristicas Tecnicas Desarrollo						
 
-Características Tecnicas Calidad						
+Caracteristicas Tecnicas Calidad						
 
 
 Esta integracion esta orquestada por XXXX:
