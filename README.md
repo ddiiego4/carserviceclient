@@ -100,7 +100,7 @@ Diagrama
 Nombre Componente	Descripcion del componente	Responsabilidad	Tipo	Herramienta
 
 Consideraciones
-​ En esta seccion especificar las consideraciones relevantes de la solucion a construir.
+En esta seccion especificar las consideraciones relevantes de la solucion a construir.
 
 Este diagrama no es necesario cuando se construye un servicio simple, se crearia el diagrama de secuencia.
 Este diagrama debe contemplar el reproceso de la informacion y el punto desde donde reenviaria la informacion.
